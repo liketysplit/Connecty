@@ -4,6 +4,7 @@ const bcrypt = require("bcryptjs");
 const gravatar = require('gravatar');
 const jwt = require("jsonwebtoken");
 const keys = require("../../config/keys");
+const passport = require("passport");
 
 // Load User model
 const User = require('../../models/User');
@@ -99,5 +100,26 @@ router.post("/login", (req, res) => {
         });
     });
 });
+
+
+// @route   GET /api/users/current
+// @desc    Return current user
+// @access  Private
+router.get(
+    "/current",
+    passport.authenticate("jwt", {
+        session: false
+    }),
+    (req, res) => {
+        // if passport.authenticate is successful, req contains the user's information extracted from the jwt token
+        // notice that what information to be included in res.json is up to you. Here I just chose id, name, and email.
+        res.json({
+            id: req.user.id,
+            name: req.user.name,
+            email: req.user.email
+        });
+    }
+);
+
 
 module.exports = router;
