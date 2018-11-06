@@ -1,0 +1,53 @@
+commit 90d9ecb41190e8f7b3fab0731496525f38fa5ddc
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Oct 30 00:56:09 2018 -0400
+
+    3.6 Server-side Validation Handlers
+
+commit 3f5e844ba4c16a10152dde53e3876605a24ecd99
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Oct 30 00:37:13 2018 -0400
+
+    3.5 Passport JWT Authentication Strategy for Accessing Private Routes
+
+commit d4d552bc0bb3054fc1a57f30c690fbb1e5eb7bc7
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Oct 30 00:27:43 2018 -0400
+
+    3.4 JWT with basic checks
+
+commit cd7ea40aa7a46c4960b86badf61abbc1d0e9cb71
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Oct 30 00:21:20 2018 -0400
+
+    3.3 User login  with basic checks
+
+commit b5c48e753bb5a144e682345c76cd96a510fdf27f
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Oct 30 00:14:04 2018 -0400
+
+    3.2 User registraion with basic checks
+
+commit bf6671a3b133ddd641837f63fa9539902d18de42
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Mon Oct 29 23:55:39 2018 -0400
+
+    2.3 Routes added for profiles, posts, and users
+
+commit cea8f1c47545f6a43a604cf02c607d17269c960e
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Mon Oct 29 23:49:43 2018 -0400
+
+    fixed untracked files
+
+commit f2606a279da3cb19c6efd0ac700cdd8c0b013547
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Mon Oct 29 22:54:24 2018 -0400
+
+    added installs
+
+commit 801a5549b864bf21d665b5b9ab78b8bcad68af3d
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Mon Oct 29 22:50:13 2018 -0400
+
+    created a new Node.js app
