@@ -1,3 +1,39 @@
+commit 7d752a5b01d4e6021f45b4c9f946a3cf2d06ed7a
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 6 01:52:19 2018 -0500
+
+    4.7 Delete Experience and Education API Routes Pt2
+
+commit abfccaa076bf946f47ae6060fa954774eba019cd
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 6 01:51:13 2018 -0500
+
+    4.7 Delete Experience and Education API Routes Pt1
+
+commit c39531baba970c14fab92788245b6150e44e2c43
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 6 01:49:33 2018 -0500
+
+    4.6 Add Experience and Education API Routes
+
+commit 3a64a12fd21fd8a6126f52bd5d060c8cd2727e7d
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 6 01:33:27 2018 -0500
+
+    4.5 More Profile API Routes
+
+commit 98db9d1c96231c5e0575904109edae87aae0926c
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 6 01:14:17 2018 -0500
+
+    4.4 Profile Field Validations
+
+commit 10d9f487d32717f95eb8d3a7c2f9e4f78bef8065
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 6 00:33:43 2018 -0500
+
+    4.1 Creating the Profile Model
+
 commit 90d9ecb41190e8f7b3fab0731496525f38fa5ddc
 Author: liketysplit <rjboles2@gmail.com>
 Date:   Tue Oct 30 00:56:09 2018 -0400
