@@ -191,4 +191,104 @@ router.post(
     }
 );
 
+// @route   POST /api/posts/comment/:post_id
+// @desc    Add comment to post by post_id
+// @access  Private
+router.post(
+    "/comment/:post_id",
+    passport.authenticate("jwt", {
+        session: false
+    }),
+    (req, res) => {
+        // we use the same validator for both Post and Comment to
+        // make sure that the text field has beeen received.
+        const {
+            errors,
+            isValid
+        } = validatePostInput(req.body);
+
+        if (!isValid) {
+            return res.status(400).json(errors);
+        }
+        // redundant to check profile?
+        Profile.findOne({
+            user: req.user.id
+        }).then(profile => {
+            Post.findById(req.params.post_id)
+                .then(post => {
+                    const newComment = {
+                        text: req.body.text,
+                        name: req.body.name,
+                        avatar: req.body.avatar,
+                        user: req.user.id
+                    };
+
+                    post.comments.unshift(newComment);
+                    post.save().then(post => res.json(post));
+                })
+                .catch(err =>
+                    res.status(404).json({
+                        postnotfound: "No post found"
+                    })
+                );
+        });
+    }
+);
+
+// @route   DELETE /api/posts/comment/:post_id/:comment_id
+// @desc    Delete comment by the comment_id from post by post_id
+// @access  Private
+router.delete(
+    "/comment/:post_id/:comment_id",
+    passport.authenticate("jwt", {
+        session: false
+    }),
+    (req, res) => {
+        // redundant to check profile?
+        Profile.findOne({
+            user: req.user.id
+        }).then(profile => {
+            Post.findById(req.params.post_id)
+                .then(post => {
+                    if (
+                        post.comments.filter(
+                            comment =>
+                            comment._id.toString() === req.params.comment_id // req.params.comment_id is a string, therefore, comment._id has to be converted into a string before the comparison
+                        ).length === 0
+                    ) {
+                        return res.status(404).json({
+                            commentnotfound: "Comment does not exist"
+                        });
+                    }
+
+                    // Get remove index
+                    const removeIndex = post.comments
+                        .map(item => item._id.toString())
+                        .indexOf(req.params.comment_id);
+
+                    // check for comment owner because you don't want someone to delete comments made by someone else
+                    if (
+                        post.comments[removeIndex].user.toString() !==
+                        req.user.id
+                    ) {
+                        return res
+                            .status(401)
+                            .json({
+                                notauthorized: "User not authorized"
+                            });
+                    }
+
+                    post.comments.splice(removeIndex, 1);
+                    post.save().then(post => res.json(post));
+                })
+                .catch(err =>
+                    res.status(404).json({
+                        postnotfound: "No post found"
+                    })
+                );
+        });
+    }
+);
+
+
 module.exports = router;
