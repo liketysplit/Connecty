@@ -3,8 +3,7 @@ const router = express.Router();
 const mongoose = require("mongoose");
 const passport = require("passport");
 
-// Load User and Post models
-const User = require("../../models/User");
+//Post model
 const Post = require("../../models/Post");
 
 // Load Input Validation
