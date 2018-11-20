@@ -10,7 +10,7 @@ const Profile = require('../../models/profile');
 
 // Load Input Validation
 const validatePostInput = require("../../validation/post");
-const Profile = require("../../models/profile");
+
 
 // @route   GET /api/posts/test
 // @desc    Tests posts route
