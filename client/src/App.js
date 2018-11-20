@@ -10,7 +10,8 @@ class App extends Component {
 		return (
 			<div className="App">
 				<Navbar />
-				<h1> My React App </h1>{" "}
+				<Landing />
+				<Footer />
 			</div>
 		);
 	}
