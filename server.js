@@ -5,7 +5,7 @@ const passport = require('passport');
 const path = require('path');
 
 const users = require('./routes/api/users');
-const profile = require('./routes/api/profile');
+const profile = require('./routes/api/profiles');
 const posts = require('./routes/api/posts');
 
 const app = express();
@@ -33,7 +33,7 @@ require('./config/passport')(passport);
 
 // Use Routes
 app.use('/api/users', users);
-app.use('/api/profile', profile);
+app.use('/api/profiles', profile);
 app.use('/api/posts', posts);
 
 // Server static assets if in production
