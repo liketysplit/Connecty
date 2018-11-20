@@ -4,7 +4,9 @@ const mongoose = require("mongoose");
 const passport = require("passport");
 
 //Post model
-const Post = require("../../models/Post");
+const User = require('../../models/User');
+const Post = require('../../models/Post');
+const Profile = require('../../models/Profile');
 
 // Load Input Validation
 const validatePostInput = require("../../validation/post");
