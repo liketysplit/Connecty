@@ -21,12 +21,9 @@ class Landing extends Component {
 								>
 									Sign Up
 								</Link>
-								<a
-									href="login.html"
-									className="btn btn-lg btn-light"
-								>
+								<Link className="nav-link" to="/login">
 									Login
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>
