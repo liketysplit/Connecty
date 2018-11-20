@@ -4,8 +4,8 @@ const mongoose = require("mongoose");
 const passport = require("passport");
 
 // Load User and Profile models
-const User = require("../../models/User");
-const Profile = require("../../models/Profile");
+const User = require("../../models/user");
+const Profile = require("../../models/profile");
 
 // Load Input Validation
 const validateProfileInput = require("../../validation/profile");
