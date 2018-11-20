@@ -1,3 +1,33 @@
+commit 2b2850dd3a473740a4c815caca70071b38507476
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 13 01:06:11 2018 -0500
+
+    5.7 Post routes for comments with validation
+
+commit f3a9356cace57cfa058fa6e52c9a12ac2c18a88d
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 13 00:57:53 2018 -0500
+
+    5.6 Post routes for like/dislike with validation
+
+commit a3377c27b94fce87d4302c98a6610f27d34548ea
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 13 00:53:43 2018 -0500
+
+    5.5 Post routes for deleting a post with user login validation
+
+commit cf21ad8c554c68ae3a46a39b72d75a88e3124b38
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 13 00:50:08 2018 -0500
+
+    5.4 Post routes for all and single posts
+
+commit faa8de653e821c986da6424ae9f33c89a2bc024c
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 13 00:46:44 2018 -0500
+
+    5.3 Post routes with validation
+
 commit 7d752a5b01d4e6021f45b4c9f946a3cf2d06ed7a
 Author: liketysplit <rjboles2@gmail.com>
 Date:   Tue Nov 6 01:52:19 2018 -0500
