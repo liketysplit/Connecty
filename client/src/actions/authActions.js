@@ -72,3 +72,25 @@ export const setCurrentUser = decoded => {
 		payload: decoded
 	};
 };
+
+// Current User - testing a private API endpoint
+export const currentUser = userData => dispatch => {
+	axios
+		.get("/api/users/current", {})
+		.then(res => {
+			const pay = {
+				...userData,
+				email: res.data.email
+			};
+			dispatch({
+				type: SET_CURRENT_USER,
+				payload: pay
+			});
+		})
+		.catch(err =>
+			dispatch({
+				type: SET_ERRORS,
+				payload: err.response.data
+			})
+		);
+};
