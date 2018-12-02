@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import axios from "axios";
 import classnames from "classnames";
 import { connect } from "react-redux";
 import { registerUser } from "../../actions/authActions";
@@ -40,12 +39,6 @@ class Register extends Component {
 			password2: this.state.password2
 		};
 
-		// axios
-		//  .post("api/users/register", newUser)
-		//  // .then(res => console.log(res.data))
-		//  .then(res => this.props.history.push("/login"))
-		//  .catch(err => this.setState({ errors: err.response.data }));
-
 		this.props.registerUser(newUser, this.props.history);
 	}
 
@@ -59,7 +52,7 @@ class Register extends Component {
 						<div className="col-md-8 m-auto">
 							<h1 className="display-4 text-center">Sign Up</h1>
 							<p className="lead text-center">
-								Create your DevConnector account
+								Create your Connecty account
 							</p>
 							<form noValidate onSubmit={this.onFormSubmit}>
 								<div className="form-group">
