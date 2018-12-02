@@ -1,3 +1,171 @@
+commit 1096615cafdf8fd21cc2d6cf5911020d35b14b23
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 07:49:07 2018 -0500
+
+    Removed a double declaration that was added during fixes
+
+commit ae6525756f21f51d0d204f76c66bd127d079e7cb
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 07:45:24 2018 -0500
+
+    Making changes to posts capitalization again...
+
+commit 14987ec2d03cd99f92fb2947c5d4cb6edbbd11a2
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 07:44:50 2018 -0500
+
+    Making changes to posts capitalization more
+
+commit 86d930d2a7e9959214a4e4ab6485562495ee7f65
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 07:41:09 2018 -0500
+
+    Making changes to posts capitalization
+
+commit 5ff672ad7dffe18a1c743fe66e362de64ccceede
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 07:36:48 2018 -0500
+
+    Making changes to posts to see if error resolves
+
+commit aa7c916e5c6b9ac2eeac1e3117f308f45bc4ddca
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 07:27:27 2018 -0500
+
+    Manually specifiying node version as suggested in https://devcenter.heroku.com/articles/nodejs-support#specifying-a-node-js-version
+
+commit 26e6dedbbf5642ddce7642bb5a872d2956800ee1
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 06:51:55 2018 -0500
+
+    Reloaded Modules from Heroku Documentation
+
+commit 79a2aec98f788de9de83c2154346f591709c2a77
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 06:27:39 2018 -0500
+
+    updated dependances
+
+commit 110be2d17790f7aa645e1d27f4c821a588c658c0
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 06:21:56 2018 -0500
+
+    fixed devdependancy in server
+
+commit c63cd0427c6588c13abe5afa1149a884d557105d
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 06:16:36 2018 -0500
+
+    fixed untracked files
+
+commit 99740bc684627f353c6a4c18fa858635fc4bd0cc
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 06:09:58 2018 -0500
+
+    Testing Again
+
+commit 4a87669cb49b134f1c9fb84b310696161956f0e4
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 05:57:05 2018 -0500
+
+    Testing Again
+
+commit f894d3ee139e9681831380424696e221ee9439af
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 05:51:50 2018 -0500
+
+    Testing Again
+
+commit 5bd6e49233de122f65316b32f84b525615758161
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 05:35:56 2018 -0500
+
+    Testing
+
+commit fb695c65dadbb6fc005d57103cfdebee09694d2a
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 04:44:46 2018 -0500
+
+    Ready for deployment to Heroku
+
+commit a4c710281de6864c06404f0c6fe0e6801f4d65b9
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 04:37:55 2018 -0500
+
+    Fixed Landing links that still had a tags
+
+commit ae82538e83156abc576e333e1bdc6ef061b51195
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 04:36:24 2018 -0500
+
+    Fixed navbar links that still had a tags
+
+commit 05f344b82c5b773a841c8f03e604c9be84f79d71
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 04:34:26 2018 -0500
+
+    fixed untracked files
+
+commit b0c1dd52c288cf1dde8d1f968cbcf7c2afa88a25
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 04:26:11 2018 -0500
+
+    3.4 Redirect to Login page after User Registration
+
+commit 82232445ec8394d55a2ff76b83556c03a120ca90
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 04:17:54 2018 -0500
+
+    3.3 Error handling and Display
+
+commit aa525547b205eaaa5e728359168f9c7a0b4bf9aa
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 04:04:44 2018 -0500
+
+    3.2: React Component-level Statae && Fix for proxy in wrong package.json file
+
+commit 7376fec870849ed68218b42966a5610da416f7db
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 03:08:55 2018 -0500
+
+    3.1.3: Chagned out require a tags with links and added /landing route
+
+commit 5089e203ee891073712a3ab3108be0c94ac96d7d
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 03:03:30 2018 -0500
+
+    3.1.2: Register Component Added && Routes Added
+
+commit 4a7895713b70e91fc24f5fb5c4e3b9a33370aa7b
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 02:50:00 2018 -0500
+
+    2.3.2-3: Footer and Landing  added
+
+commit 6cb848e068022b4c92a1102c759b66d501443ec1
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 02:44:36 2018 -0500
+
+    2.3.1: NavBar added
+
+commit ffe01ad7e962d669c736f323893bcd894a00aeae
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 02:25:38 2018 -0500
+
+    2.2: Bootstrap and FontAwesome added
+
+commit 3a8efefc273852f6de6b6267c8f4e8bb89cce9d8
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 02:22:09 2018 -0500
+
+    2.1: Project Cleanup && CSS Addtions && Imgs added
+
+commit bccf2fd5d64c6381c7865ab895acad0178da52ef
+Author: liketysplit <rjboles2@gmail.com>
+Date:   Tue Nov 20 02:12:29 2018 -0500
+
+    1.1-1.3: Setup changes for the frontend
+
 commit 2b2850dd3a473740a4c815caca70071b38507476
 Author: liketysplit <rjboles2@gmail.com>
 Date:   Tue Nov 13 01:06:11 2018 -0500
