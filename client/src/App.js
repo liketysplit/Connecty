@@ -14,10 +14,13 @@ import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
 
+import rootReducer from "./reducers";
+
+const initialState = {};
 const middleware = [thunk];
 const store = createStore(
-	() => [], // empty store since no reducer created yet
-	{},
+	rootReducer,
+	initialState,
 	composeWithDevTools(applyMiddleware(...middleware))
 );
 
